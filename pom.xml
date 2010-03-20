@@ -13,7 +13,7 @@
     <url>http://codeartisans.org</url>
 
     <scm>
-        <developerConnection>scm:git:ssh://codebox.codeartisans.org/codeartisans-parent.git</developerConnection>
+        <developerConnection>scm:git:ssh://gitosis@codebox.codeartisans.org/codeartisans-parent.git</developerConnection>
     </scm>
 
     <properties>
