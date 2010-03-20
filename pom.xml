@@ -11,7 +11,7 @@
     <url>http://codeartisans.org</url>
 
     <scm>
-        <developerConnection>scm:git:ssh://gitosis@codebox.codeartisans.org/codeartisans-parent.git</developerConnection>
+        <developerConnection>scm:git:ssh://gitosis@codebox.codeartisans.org/${project.artifactId}.git</developerConnection>
     </scm>
 
     <properties>
