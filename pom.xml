@@ -12,6 +12,10 @@
     <packaging>pom</packaging>
     <url>http://codeartisans.org</url>
 
+    <scm>
+        <developerConnection>scm:git:ssh://codebox.codeartisans.org/codeartisans-parent.git</developerConnection>
+    </scm>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.6</maven.compiler.source>
