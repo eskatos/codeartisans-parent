@@ -25,6 +25,7 @@
             <plugin>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
+                    <encoding>UTF-8</encoding>
                     <source>${maven.compiler.source}</source>
                     <target>${maven.compiler.target}</target>
                 </configuration>
@@ -56,4 +57,11 @@
         </repository>
     </repositories>
 
+    <pluginRepositories>
+        <pluginRepository>
+            <id>codeartisans-public</id>
+            <url>https://codebox.codeartisans.org/nexus/content/groups/public</url>
+        </pluginRepository>
+    </pluginRepositories>
+    
 </project>
