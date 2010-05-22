@@ -4,7 +4,7 @@
 
     <groupId>org.codeartisans</groupId>
     <artifactId>codeartisans-parent</artifactId>
-    <version>4-SNAPSHOT</version>
+    <version>4</version>
 
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
