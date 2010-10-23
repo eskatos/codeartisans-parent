@@ -2,16 +2,32 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>5</version>
+    </parent>
+
     <groupId>org.codeartisans</groupId>
     <artifactId>codeartisans-parent</artifactId>
     <version>5-SNAPSHOT</version>
 
     <name>${project.artifactId}</name>
     <packaging>pom</packaging>
-    <url>http://codeartisans.org</url>
+    <url>http://github.com/Codeartisans/codeartisans-parent</url>
 
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+  
     <scm>
-        <developerConnection>scm:git:ssh://gitosis@codebox.codeartisans.org/${project.artifactId}.git</developerConnection>
+        <url>scm:git:git@github.com:Codeartisans/codeartisans-parent.git</url>
+        <connection>scm:git:git@github.com:Codeartisans/codeartisans-parent.git</connection>
+        <developerConnection>scm:git:git@github.com:Codeartisans/codeartisans-parent.git</developerConnection>
     </scm>
 
     <properties>
@@ -41,29 +57,4 @@
         </plugins>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>codeartisans-public-releases</id>
-            <url>https://codebox.codeartisans.org/nexus/content/repositories/releases</url>
-        </repository>
-        <snapshotRepository>
-            <id>codeartisans-public-snapshots</id>
-            <url>https://codebox.codeartisans.org/nexus/content/repositories/snapshots</url>
-        </snapshotRepository>
-    </distributionManagement>
-
-    <repositories>
-        <repository>
-            <id>codeartisans-public</id>
-            <url>https://codebox.codeartisans.org/nexus/content/groups/public</url>
-        </repository>
-    </repositories>
-
-    <pluginRepositories>
-        <pluginRepository>
-            <id>codeartisans-public</id>
-            <url>https://codebox.codeartisans.org/nexus/content/groups/public</url>
-        </pluginRepository>
-    </pluginRepositories>
-    
 </project>
