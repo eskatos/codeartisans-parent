@@ -36,10 +36,6 @@
         <maven.compiler.target>1.6</maven.compiler.target>
     </properties>
 
-    <prerequisites>
-        <maven>3.0</maven>
-    </prerequisites>
-
     <build>
         <plugins>
             <plugin>
