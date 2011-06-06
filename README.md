@@ -8,6 +8,6 @@ maven settings.
 	<parent>
 	  <groupId>org.codeartisans</groupId>
 	  <artifactId>codeartisans-parent</artifactId>
-	  <version>5</version> <!-- This is the latest released version -->
+	  <version>6</version> <!-- This is the latest released version -->
 	</parent>
 
